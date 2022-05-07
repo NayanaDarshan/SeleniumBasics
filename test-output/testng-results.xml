@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Parallel execution suite Test" duration-ms="20339" started-at="2021-07-03T12:53:15Z" finished-at="2021-07-03T12:53:36Z">
+    <groups>
+    </groups>
+    <test name=" chrome-Facebook parallel execution" duration-ms="10709" started-at="2021-07-03T12:53:15Z" finished-at="2021-07-03T12:53:26Z">
+      <class name="parallelExecution.parallelTesting">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:parallelExecution.parallelTesting@7d9d1a19]" name="setup" is-config="true" duration-ms="7785" started-at="2021-07-03T12:53:15Z" finished-at="2021-07-03T12:53:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="doLoginTest()[pri:0, instance:parallelExecution.parallelTesting@7d9d1a19]" name="doLoginTest" duration-ms="2023" started-at="2021-07-03T12:53:23Z" finished-at="2021-07-03T12:53:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:parallelExecution.parallelTesting@7d9d1a19]" name="teardown" is-config="true" duration-ms="883" started-at="2021-07-03T12:53:25Z" finished-at="2021-07-03T12:53:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- parallelExecution.parallelTesting -->
+    </test> <!--  chrome-Facebook parallel execution -->
+    <test name=" Firefox-Facebook parallel execution" duration-ms="9618" started-at="2021-07-03T12:53:26Z" finished-at="2021-07-03T12:53:36Z">
+      <class name="parallelExecution.parallelTesting">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:parallelExecution.parallelTesting@1ce92674]" name="setup" is-config="true" duration-ms="5869" started-at="2021-07-03T12:53:26Z" finished-at="2021-07-03T12:53:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="doLoginTest()[pri:0, instance:parallelExecution.parallelTesting@1ce92674]" name="doLoginTest" duration-ms="2897" started-at="2021-07-03T12:53:32Z" finished-at="2021-07-03T12:53:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:parallelExecution.parallelTesting@1ce92674]" name="teardown" is-config="true" duration-ms="849" started-at="2021-07-03T12:53:35Z" finished-at="2021-07-03T12:53:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- parallelExecution.parallelTesting -->
+    </test> <!--  Firefox-Facebook parallel execution -->
+  </suite> <!-- Parallel execution suite Test -->
+</testng-results>

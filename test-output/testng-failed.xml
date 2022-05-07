@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Parallel execution suite Test]">
+  <test thread-count="5" name=" Firefox-Facebook parallel execution(failed)" parallel="tests">
+    <parameter name="browserName" value="firefox"/>
+    <classes>
+      <class name="parallelExecution.parallelTesting">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="doLoginTest"/>
+        </methods>
+      </class> <!-- parallelExecution.parallelTesting -->
+    </classes>
+  </test> <!--  Firefox-Facebook parallel execution(failed) -->
+  <test thread-count="5" name=" chrome-Facebook parallel execution(failed)" parallel="tests">
+    <parameter name="browserName" value="firefox"/>
+    <classes>
+      <class name="parallelExecution.parallelTesting">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="doLoginTest"/>
+        </methods>
+      </class> <!-- parallelExecution.parallelTesting -->
+    </classes>
+  </test> <!--  chrome-Facebook parallel execution(failed) -->
+</suite> <!-- Failed suite [Parallel execution suite Test] -->

@@ -26,6 +26,8 @@ public class ActionsTest {
 		driver.get("https://www.spicejet.com/");
 
 		driver.manage().window().maximize();
+		
+		
 
 		// driver.manage().timeouts().implicitlyWait(1000,TimeUnit.SECONDS);
 
@@ -39,6 +41,8 @@ public class ActionsTest {
 		WebElement memberLogin = driver.findElement(By.xpath("//li[@class='hide-desktop']//a[text()='Member Login']"));
 
 		By covidInsurance = By.xpath("//a[text()='Covid Insurance']");
+		
+
 		/*
 		 * targetElement(Addons);
 		 * 

@@ -45,6 +45,7 @@ public class Rightclick {
 		
 		act.contextClick(ele).perform();
 		
+		
 	}
 
 	public static void optionNameClick(List<WebElement> optName, String value) {

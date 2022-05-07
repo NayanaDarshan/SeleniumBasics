@@ -1,5 +1,6 @@
 package AppLaunch;
 
+import org.openqa.selenium.SearchContext;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -32,6 +33,18 @@ public class CrossBrowserTesting {
          System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\SelSetup\\chromedriver.exe");
 
 			driver = new ChromeDriver();
+			
+			SearchContext drievr = new FirefoxDriver();
+			
+			try {
+				WebDriver driver = WebDriver.class.newInstance();
+			} catch (InstantiationException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (IllegalAccessException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 		
 		}
 

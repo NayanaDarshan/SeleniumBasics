@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="Parallel execution suite Test">
+
+	<test name=" chrome-Facebook parallel execution" parallel="tests">
+
+		<parameter name="browserName" value="firefox"></parameter>
+
+
+		<classes>
+
+
+			<class name="parallelExecution.parallelTesting" />
+		</classes>
+	</test>
+	<test name=" Firefox-Facebook parallel execution" parallel="tests">
+
+		<parameter name="browserName" value="firefox"></parameter>
+
+
+		<classes>
+
+
+			<class name="parallelExecution.parallelTesting" />
+		</classes>
+
+
+	</test>
+
+
+
+</suite>
